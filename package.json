@@ -1,0 +1,17 @@
+{
+  "name": "apiaberta-dre",
+  "version": "1.0.0",
+  "description": "DRE legislação connector for API Aberta",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@fastify/swagger": "^9.0.0",
+    "@fastify/swagger-ui": "^5.0.0",
+    "fastify": "^5.0.0",
+    "pino-pretty": "^13.0.0"
+  },
+  "engines": { "node": ">=22.0.0" }
+}
