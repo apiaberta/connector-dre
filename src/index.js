@@ -55,6 +55,14 @@ app.get('/meta', async () => ({
   note: 'DRE search requires session handling. For direct access use https://dre.pt'
 }))
 
+app.get('/dre/meta', async () => ({
+  service: SERVICE_NAME,
+  version: '1.0.0',
+  description: 'Portuguese legislation from Diário da República',
+  source: 'https://dre.pt',
+  note: 'DRE search requires session handling. For direct access use https://dre.pt'
+}))
+
 // ─── Series ──────────────────────────────────────────────────────────────────
 
 app.get('/dre/series', {
