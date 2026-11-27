@@ -6,6 +6,7 @@ module.exports = {
       env: {
         NODE_ENV: 'production',
         PORT: 3015,
+        MONGO_URI: 'mongodb://localhost:27017/apiaberta-dre',
       },
       watch: false,
       autorestart: true,
